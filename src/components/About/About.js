@@ -17,11 +17,11 @@ function About() {
             md={7}
             style={{
               justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
+              paddingTop: "0px",
+              paddingBottom: "20px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "10px" }}>
               Know Who <strong className="purple">I'M</strong>
             </h1>
             <Aboutcard />
@@ -45,7 +45,7 @@ function About() {
         </h1>
         <Toolstack />
 
-        <Github />
+        {/*  <Github /> */}
       </Container>
     </Container>
   );
