@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Ranjana_resume.pdf";
+import resume from "../../Assets/../Assets/Ranjana_resume.pdf";
+import pdf from "../../Assets/../Assets/Ranjana_res_2yrs.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -40,29 +41,6 @@ function ResumeNew() {
                 scale={width > 786 ? 1.7 : 0.6}
               />
               <br />
-              <Page
-                wrap={false}
-                pageNumber={2}
-                scale={width > 786 ? 1.7 : 0.6}
-              />
-              <br />
-              <Page
-                wrap={false}
-                pageNumber={3}
-                scale={width > 786 ? 1.7 : 0.6}
-              />
-              <br />
-              <Page
-                wrap={false}
-                pageNumber={4}
-                scale={width > 786 ? 1.7 : 0.6}
-              />
-              <br />
-              <Page
-                wrap={false}
-                pageNumber={5}
-                scale={width > 786 ? 1.7 : 0.6}
-              />
             </div>
           </Document>
         </Row>
