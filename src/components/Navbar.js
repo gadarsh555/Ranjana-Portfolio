@@ -17,8 +17,10 @@ import { FaLaptop } from "react-icons/fa6";
 import { IoSchool } from "react-icons/io5";
 import { MdOutlineWork } from "react-icons/md";
 import { RiAwardFill } from "react-icons/ri";
-
+import { PiCertificateBold } from "react-icons/pi";
 import { CgFileDocument } from "react-icons/cg";
+
+import "./common.styles.css";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -57,13 +59,13 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-            <Nav.Item>
+            <Nav.Item className="navItem">
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item className="navItem">
               <Nav.Link
                 as={Link}
                 to="/about"
@@ -73,7 +75,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item className="navItem">
               <Nav.Link
                 as={Link}
                 to="/project"
@@ -86,7 +88,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item className="navItem">
               <Nav.Link
                 as={Link}
                 to="/education"
@@ -96,7 +98,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item className="navItem">
               <Nav.Link
                 as={Link}
                 to="/internships"
@@ -106,7 +108,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item className="navItem">
               <Nav.Link
                 as={Link}
                 to="/achievements"
@@ -116,7 +118,18 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item className="navItem">
+              <Nav.Link
+                as={Link}
+                to="/certifications"
+                onClick={() => updateExpanded(false)}
+              >
+                <PiCertificateBold style={{ marginBottom: "2px" }} />{" "}
+                Certifications
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item className="navItem">
               <Nav.Link
                 as={Link}
                 to="/resume"

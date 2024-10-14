@@ -6,13 +6,13 @@ import "./internships.css";
 const InternshipCard = ({ name, company, timeline, description }) => {
   return (
     <div className="internshipCard project-card-view">
-      <div className="section1">
-        <div className="name">{name}</div>
-        <div className="timeline">{_capitalize(timeline)}</div>
+      <div className="internshipSection1">
+        <div className="internshipName">{name}</div>
+        <div className="internshipTimeline">{_capitalize(timeline)}</div>
       </div>
-      <div className="section2">
-        <div className="company">{company}</div>
-        <div className="description">{description}</div>
+      <div className="internshipSection2">
+        <div className="internshipCompany">{company}</div>
+        <div className="internshipDescription">{description}</div>
       </div>
     </div>
   );

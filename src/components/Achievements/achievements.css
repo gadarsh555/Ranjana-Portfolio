@@ -5,7 +5,7 @@
   padding: 1.2rem;
 }
 
-.section1 {
+.achievementCardContainer {
   display: flex;
   align-items: center;
   width: 100%;
@@ -13,6 +13,6 @@
   border: none;
 }
 
-.description {
+.achievementDescription {
   margin-left: 2rem;
 }

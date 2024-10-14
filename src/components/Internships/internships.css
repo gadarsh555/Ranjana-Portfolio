@@ -13,7 +13,7 @@
   padding: 1rem;
 }
 
-.section1 {
+.internshipSection1 {
   display: flex;
   align-items: flex-start;
   width: 100%;
@@ -21,26 +21,26 @@
   border-bottom: 1px solid lightcyan;
 }
 
-.name {
+.internshipName {
   font-weight: bold;
   margin-bottom: 0.4rem;
 }
 
-.timeline {
+.internshipTimeline {
   font-weight: bold;
 }
 
-.company {
+.internshipCompany {
   margin-bottom: 0.2rem;
   color: lemonchiffon;
 }
 
-.description {
+.internshipDescription {
   margin-top: 0.4rem;
   text-align: left;
 }
 
-.section2 {
+.internshipSection2 {
   margin-top: 1rem;
   display: flex;
   flex-direction: column;

@@ -6,9 +6,9 @@ import "./achievements.css";
 const AchievementCard = ({ description }) => {
   return (
     <div className="achievementCard project-card-view">
-      <div className="section1">
+      <div className="achievementCardContainer">
         <IoStarOutline size={30} />
-        <div className="description">{description}</div>
+        <div className="achievementDescription">{description}</div>
       </div>
     </div>
   );
