@@ -1,0 +1,41 @@
+.educationCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 15rem;
+  margin-top: 3.2rem;
+  font-size: 1.1rem;
+  padding: 1.2rem;
+}
+
+.section1 {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid lightcyan;
+}
+
+.course {
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+
+.timeline {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.institute {
+  margin-bottom: 0.4rem;
+  color: lemonchiffon;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 0.8rem;
+}

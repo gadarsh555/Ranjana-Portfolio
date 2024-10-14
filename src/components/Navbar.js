@@ -89,7 +89,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
+                to="/education"
                 onClick={() => updateExpanded(false)}
               >
                 <IoSchool style={{ marginBottom: "2px" }} /> Education
@@ -99,7 +99,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
+                to="/internships"
                 onClick={() => updateExpanded(false)}
               >
                 <MdOutlineWork style={{ marginBottom: "2px" }} /> Internships
@@ -109,7 +109,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
+                to="/achievements"
                 onClick={() => updateExpanded(false)}
               >
                 <RiAwardFill style={{ marginBottom: "2px" }} /> Achievements

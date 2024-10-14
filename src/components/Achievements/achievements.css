@@ -1,0 +1,18 @@
+.achievementCard {
+  width: 100%;
+  margin-top: 2.2rem;
+  font-size: 1.2rem;
+  padding: 1.2rem;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+  border: none;
+}
+
+.description {
+  margin-left: 2rem;
+}
