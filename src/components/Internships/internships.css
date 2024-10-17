@@ -30,6 +30,19 @@
   font-weight: bold;
 }
 
+.internshipleftSection {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.linkInternship {
+  padding: 0rem;
+  margin-right: 0.4rem;
+  font-weight: bold;
+}
+
 .internshipCompany {
   margin-bottom: 0.2rem;
   color: lemonchiffon;

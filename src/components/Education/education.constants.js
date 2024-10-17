@@ -5,7 +5,7 @@ const EDUCATION = [
     timeline: "DECEMBER 2022 — DECEMBER 2023",
     description:
       "Did projects and Certified in Machine learning, Deep Learning, Computer vision, Statistics, NLP, Time series etc.",
-    link: "",
+    link: "https://colab.research.google.com/drive/1fO_AkfAgCJxeIoN01nf4HMNa9FWgp9ZY?usp=sharing",
   },
   {
     course: "Post Graduation in English Literature",

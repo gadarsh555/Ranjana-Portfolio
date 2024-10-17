@@ -6,6 +6,11 @@ const ACHIEVEMENTS = [
   },
   {
     description:
+      "HackerRank 5 Star Badge in Python and 3 Star in Problem Solving.",
+    link: "https://www.hackerrank.com/profile/granjana62",
+  },
+  {
+    description:
       "Advanced from Banking to IT sector quickly as result of quick learning and adaptation quality.",
     link: "",
   },
@@ -19,11 +24,7 @@ const ACHIEVEMENTS = [
       "Achieved JAIIB certification from Indian Institute of Banking and Finance.",
     link: "",
   },
-  {
-    description:
-      "HackerRank 5 Star Badge in Python and 3 Star in Problem Solving.",
-    link: "",
-  },
+
   {
     description:
       "Secured First Price in Hindi Language Competition. Active member in various competition in Organization.",

@@ -1,15 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import working from "../../Assets/working.jpeg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-import './home.css';
+import "./home.css";
 
 function Home2() {
   return (
@@ -21,20 +17,28 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            Experienced Data Science professional having  <b className="purple">&nbsp;11+ years&nbsp;</b> of banking career
-including &nbsp;<b className="purple">2</b>&nbsp; years as <b className="purple">Data scientist</b>.
-During 2-year as a data scientist, I honed
-my skills in &nbsp;<b className="purple">Python programming language, Machine Learning, Deep
-Learning, Natural Language Processing, SQL, NLP, Time series, Computer
-vision and Power Bi</b>. &nbsp;
-<p className="home2Intro">Looking to combine my <b className="purple">finance sector</b> expertise with these
-cutting-edge skills to solve complex business problems and contribute to
-the forefront of data-driven solutions.</p>
+              Experienced Data Science professional having{" "}
+              <b className="purple">&nbsp;11+ years&nbsp;</b> of banking career
+              including &nbsp;<b className="purple">2</b>&nbsp; years as{" "}
+              <b className="purple">Data scientist</b>. During 2-year as a data
+              scientist, I honed my skills in &nbsp;
+              <b className="purple">
+                Python programming language, Machine Learning, Deep Learning,
+                Natural Language Processing, SQL, NLP, Time series, Computer
+                vision and Power Bi
+              </b>
+              . &nbsp;
+              <p className="home2Intro">
+                Looking to combine my <b className="purple">finance sector</b>{" "}
+                expertise with these cutting-edge skills to solve complex
+                business problems and contribute to the forefront of data-driven
+                solutions.
+              </p>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={working} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

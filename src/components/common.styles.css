@@ -1,3 +1,13 @@
 .navItem {
   font-size: 1.055rem;
 }
+
+.navItem :hover {
+  font-size: 1.3rem;
+}
+
+.activeNavItem {
+  font-size: 1.3rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 1rem;
+}

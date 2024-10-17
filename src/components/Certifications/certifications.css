@@ -7,8 +7,9 @@
 
 .certificationCard {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
   font-size: 1.2rem;
   padding: 1.06rem;
 }
@@ -16,7 +17,6 @@
 .certificationSection1 {
   display: flex;
   align-items: center;
-  width: 100%;
   justify-content: flex-start;
   border: none;
 }
@@ -24,4 +24,8 @@
 .certificationDescription {
   text-align: left;
   margin-left: 2rem;
+}
+
+.linkCertification {
+  margin-right: 0.4rem;
 }
